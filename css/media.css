@@ -1,0 +1,100 @@
+@media screen and (max-width: 1200px) {
+    .navbar.header{
+        flex-direction: column;
+    }
+    .header-nav{
+        margin-top: 10px;
+    }
+    .menu{
+        align-items: center;
+    }
+    .header-nav-list > .nav-item{
+        margin-right: 15px;
+    }
+    .header-nav-list > .nav-item > a{
+        padding: 0 5px;
+    }
+    .asvantage-item-text{
+        white-space: normal;
+    }
+}
+@media screen and (max-width: 992px) {
+    /*.navbar{*/
+    /*    flex-direction: column;*/
+    /*}*/
+    /*.header-nav{*/
+    /*    margin-top: 10px;*/
+    /*}*/
+}
+@media screen and (max-width: 768px) {
+    .contact-list-item {
+        flex-direction: column;
+        align-items: flex-end;
+    }
+    .contact-item-right{
+        margin-top: 1rem;
+    }
+    .contact-list-item-btn {
+        align-self: center;
+    }
+    .record-to-doctor-info{
+        margin-top: 3rem;
+    }
+    .company-dev{
+        margin-top: 1.5rem;
+    }
+}
+@media screen and (max-width: 576px) {
+    .header-nav-list{
+        flex-direction: column;
+        align-items: center;
+    }
+    .separator{
+        display: none;
+    }
+    .contact-list{
+        flex-direction: column;
+    }
+    .btn-record{
+        margin-top: 1rem;
+    }
+    .contact-list-item, .contact-item-left, .contact-item-right{
+        align-items: center;
+        margin-right: 0;
+    }
+    .footer-nav-list{
+        flex-direction: column;
+        align-items: center;
+    }
+    .navbar.footer{
+        display: block;
+    }
+    .top-image{
+        display: none;
+    }
+    .visiograph-content{
+        text-align: justify;
+    }
+    .footer-nav-list > .nav-item > a, .header-nav-list > .nav-item > a {
+        font-size: 25px;
+    }
+    .header-nav-list > .nav-item, .footer-nav-list >.nav-item {
+        margin-right: 0;
+    }
+    .header-nav-list > {
+        margin-top: 0.5rem;
+    }
+    .btn-record{
+        font-size: 25px;
+    }
+    .header-nav-list > .nav-item > a, .footer-nav-list >.nav-item > a{
+        padding: 0;
+    }
+    .logo-content{
+        text-align: center;
+    }
+    .contact-list > .contact-list-item > .contact-item-left > div,
+    .contact-list > .contact-list-item > .contact-item-right > div {
+        margin-top: 0.5rem;
+    }
+}
